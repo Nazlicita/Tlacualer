@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hotel</title>
+<style type="text/css">
+.Letra {
+	color: #FFF;
+}
+body,td,th {
+	color: #CCC;
+}
+body {
+	background-color: #933;
+}
+.Tabla {
+	color: #333;
+}
+</style></head>
+
+<body>
+<h1 align="center">Hotel las Fuentes.</h1>
+<div align="center">
+  <table width="762" border="1">
+    <tr>
+      <td colspan="4" bgcolor="#666600" class="Letra"><div align="center">Tabla de precios 2005</div></td>
+    </tr>
+    <tr>
+      <td colspan="2" bgcolor="#006666" class="Letra"> <div align="center">Temporada Alta</div></td>
+      <td colspan="2" bgcolor="#006666" class="Letra"><div align="center">Temporada Baja</div></td>
+    </tr>
+    <tr>
+      <td width="274" bgcolor="#999999"><span class="Tabla">Hab. Individual.</span></td>
+      <td width="87" bgcolor="#999999"><span class="Tabla">55.00</span></td>
+      <td width="303" bgcolor="#999999"><span class="Tabla">Hab. Individual</span></td>
+      <td width="70" bgcolor="#999999"><span class="Tabla">40.00</span></td>
+    </tr>
+    <tr>
+      <td bgcolor="#999999"><span class="Tabla">Hab. Doble</span></td>
+      <td bgcolor="#999999"><span class="Tabla">68.00</span></td>
+      <td bgcolor="#999999"><span class="Tabla">Hab. Doble</span></td>
+      <td bgcolor="#999999"><span class="Tabla">58.00</span></td>
+    </tr>
+    <tr>
+      <td bgcolor="#999999"><span class="Tabla">Suit</span></td>
+      <td bgcolor="#999999"><span class="Tabla">125.00</span></td>
+      <td bgcolor="#999999"><span class="Tabla">Suit</span></td>
+      <td bgcolor="#999999"><span class="Tabla">100.00</span></td>
+    </tr>
+    <tr>
+      <td bgcolor="#999999"><span class="Tabla">Desayuno</span></td>
+      <td bgcolor="#999999"><span class="Tabla">10.00</span></td>
+      <td bgcolor="#999999"><span class="Tabla">Desayuno</span></td>
+      <td bgcolor="#999999"><span class="Tabla">8.00</span></td>
+    </tr>
+    <tr>
+      <td bgcolor="#999999"><span class="Tabla">Comida</span></td>
+      <td bgcolor="#999999"><span class="Tabla">45.00</span></td>
+      <td bgcolor="#999999"><span class="Tabla">Comida</span></td>
+      <td bgcolor="#999999"><span class="Tabla">32.00</span></td>
+    </tr>
+    <tr>
+      <td bgcolor="#999999"><span class="Tabla">Cena</span></td>
+      <td bgcolor="#999999"><span class="Tabla">48.00</span></td>
+      <td bgcolor="#999999"><span class="Tabla">Cena</span></td>
+      <td bgcolor="#999999"><span class="Tabla">35.00</span></td>
+    </tr>
+    <tr>
+      <td colspan="4" bgcolor="#999999"><div align="center"><span class="Tabla">Todos los precios son en € y no incluyen IVA</span></div></td>
+    </tr>
+  </table>
+</div>
+<h3>Para realizar su reserva rellene el siguiente formulario:</h3>
+<form id="form1" name="form1" method="post" action="mailito:&quot;luisescandell@yahoo.es&quot;">
+  <p>
+    <label for="textfield">Nombre</label>
+    :
+    <input type="text" name="textfield" id="textfield" />
+  </p>
+  <p>
+    <label for="textfield2">Apellidos</label>
+    :
+    <input type="text" name="textfield2" id="textfield2" />
+  </p>
+  <p>
+    <label for="textfield3">D. N. I :</label>
+    <input type="text" name="textfield3" id="textfield3" />
+  </p>
+  <p>
+    <label for="select">Tipo de habitación:</label>
+    <select name="select" id="select">
+      <option>Elige tipo de habitación</option>
+      <option>Individual</option>
+      <option>Doble</option>
+      <option>Suit</option>
+    </select>
+  </p>
+  <p>
+    <label for="radio">Regimén escogido:</label>
+    ~Alojamiento
+    <input type="radio" name="radio" id="radio" value="radio" />
+    <label for="radio">AD</label>
+    <input type="radio" name="radio2" id="radio2" value="radio2" />
+    <label for="radio2">MP</label>
+    <input type="radio" name="radio3" id="radio3" value="radio3" />
+    <label for="radio3">PC</label>
+  </p>
+  <p>
+    <label for="textfield4">Día de entrada:</label>
+    <input type="text" name="textfield4" id="textfield4" />
+  </p>
+  <p>
+    <label for="textfield5">Día de salida:</label>
+    <input type="text" name="textfield5" id="textfield5" />
+  </p>
+  <p>Extras que desearía utilizar (elija cuantos quiera):</p>
+  <p>
+    <input type="checkbox" name="checkbox" id="checkbox" />
+    <label for="checkbox">Lavandería</label>
+    <input type="checkbox" name="checkbox2" id="checkbox2" />
+    <label for="checkbox2">Mini-bar</label>
+    <input type="checkbox" name="checkbox3" id="checkbox3" />
+    <label for="checkbox3">Servicio Habitaciones</label>
+    <input type="checkbox" name="checkbox4" id="checkbox4" />
+    <label for="checkbox4">Sauna</label>
+    <input type="checkbox" name="checkbox5" id="checkbox5" />
+    <label for="checkbox5">Gimnasio</label>
+  </p>
+  <p>
+    <input type="reset" name="button" id="button" value="Restablecer" />
+    <input type="submit" name="button2" id="button2" value="Enviar" />
+    <label for="checkbox6"></label>
+  </p>
+  <p>&nbsp;</p>
+</form>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>
